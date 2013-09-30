@@ -400,10 +400,14 @@
       cursor: pointer;
       /*box-shadow: 0px 0px 2px 0px rgb(155, 155, 155);*/
       border-radius: 8px; }
-  #clients .client .client1 {
+  #clients .client .client0 {
+    background: url("../../img/client0.png") 0 -75px; }
+    #clients .client .client1:hover {
+      background-position: 0px 0px; }
+#clients .client .client1 {
     background: url("../../img/client1.png") 0 -75px; }
     #clients .client .client1:hover {
-      background-position: 1px 0px; }
+      background-position: 0px 1px; }
   #clients .client .client2 {
     background: url("../../img/client2.png") 0 -75px; }
     #clients .client .client2:hover {
